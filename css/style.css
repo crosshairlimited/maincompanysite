@@ -22,6 +22,17 @@ import Fonts
 basic 
 ---------------------------------------------------------------------*/
 
+.our-works{
+    padding-bottom: 10px;
+}
+
+.our-works h2{
+    padding: 10px;
+}
+.our-works p{
+    padding: 10px;
+}
+
 body {
      color: #666666;
      font-size: 14px;

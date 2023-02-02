@@ -43,6 +43,12 @@
         <div class="loader"><img src="images/loading.gif" alt="" /></div>
     </div>
     <!-- end loader -->    
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>        
+        <a href="apps.html">Apps</a>
+        <a href="games.html">Games</a>
+     </div>
     <!-- header -->
     <header>
         <!-- header inner -->
@@ -51,14 +57,15 @@
                 <div class="row d_flex">
                     <div class="col-sm-3">
                         <div class="logo">
-                            <a href="index.html">Crosshair Games</a>
-                        </div>
-                    </div>
+                            <a href="index.html">Crosshair Games</a>                            
+                        </div>                        
+                    </div>                    
                     <div class="col-sm-9">
                         <ul class="social_icon text_align_right d_none">
                             <li> <a href="https://www.facebook.com/crosshairltd/"><i class="fa fa-facebook-f"></i></a></li>
                             <li> <a href="https://www.instagram.com/crosshairgames/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li> <a href="https://www.youtube.com/channel/UCQKuKSf3gFe8POK-fCP7mTw"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
                         </ul>
                     </div>                    
                 </div>
@@ -156,47 +163,7 @@
             </div>
         </div>
     </div>
-    <!-- end wallet -->
-    <!-- about -->
-    <div id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="about_border">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="titlepage text_align_left">
-                                    <h2>About Us</h2>
-                                </div>
-                                <div class="about_text">
-                                    <p>
-                                        Founded in early 2018, Crosshair GAMES LIMITED is the fastest growing game development 
-                                        studio in Bangladesh. We focus on Card, Board and Casual mobile games for South Asia. 
-                                        we are committed to the development of the Game industry of Bangladesh.
-                                        We have 45+ passionate game professionals and are constantly looking for great talents 
-                                        to join our team.
-                                        We have worked on games and apps like Planta- Care for your plants, Health Connect, 
-                                        Lyrical- Photo Video Status, Frozen City, Omlet- Live streams memes and NFT, 
-                                        Tangle, Photolib- Ai Art by Lighttricks, Little Stories- Bedtime Books and many more.
-
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <!--
-                                <div class="about_img">
-                                    <figure><img class="img_responsive" src="images/about2.png" alt="#" /></figure>
-                                </div>
-                                -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end about -->
+    <!-- end wallet -->   
     
     <div class="works">
         <div class="container">
@@ -207,56 +174,82 @@
                     </div>
                 </div>
             </div>
-            <div class="row border">
-                <div class="col-md-4">
-                    <img src="images/thumb_01.png" alt="">                    
+
+            <div class="row border our-works">
+                <div class="col-md-4 d-flex flex-wrap align-items-center">
+                    <a href="https://play.google.com/store/apps/details?id=com.fct.global">
+                        <img src="images/works/Frozen City/thumb.png" alt=""> 
+                    </a>                   
                 </div>
-                <div class="col-md-8">
-                    <br>
-                    <h2>Katana ZERO</h2>
-                    <br>                    
+                <div class="col-md-8">                    
+                    <h2>Frozen City</h2>                                        
                     <p class="align-middle">
-                        Katana ZERO is a fast paced neo-noir action platformer, focusing on tight, 
-                        instant-death acrobatic combat, and a dark 80's neon aesthetic. 
+                        A city-building simulation game set in an ice and snow apocalypse. As the chief of the last town on Earth, 
+                        you have to gather resources and rebuild society.
                     </p>
-                    <img src="images/screens_01.png" alt="">
+                    <img src="images/works/Frozen City/screenshot.jpg" alt="">
                 </div>
             </div>
 
-            <div class="row border">
-                <div class="col-md-4">
-                    <img src="images/thumb_02.png" alt="">                    
+            <div class="row border our-works">
+                <div class="col-md-4 d-flex flex-wrap align-items-center">
+                    <a href="https://play.google.com/store/apps/details?id=com.diveomedia.little.stories.bedtime.books.kids">
+                        <img src="images/works/apps/Little Stories Bedtime Books/thumb.png" alt=""> 
+                    </a>                   
                 </div>
-                <div class="col-md-8">
-                    <br>
-                    <h2>OverPowered</h2>
-                    <br>                    
+                <div class="col-md-8">                    
+                    <h2>Little Stories Bedtime Books</h2>                                                      
                     <p class="align-middle">
-                        Brave the mysterious Pit of True Heroes with the aid of friendly old sage Master 
-                        Toh and take on the fearsome demon Lord Zenithius!
-
+                        The “Little Stories” series present bedtime fairy tales for children, in which kid plays the main part. 
+                        It’s quite simple – just enter kid’s name and gender in the settings window and enjoy reading personalised books. 
+                        This is free short story books for children and toddlers with audio.
                     </p>
-                    <img src="images/screens_02.png" alt="">
+                    <img src="images/works/apps/Little Stories Bedtime Books/screenshot.jpg" alt="">                    
                 </div>
-            </div>
+            </div>           
+        </div>
+    </div>-->
 
-            <div class="row border">
-                <div class="col-md-4">
-                    <img src="images/thumb_03.png" alt="">                    
-                </div>
-                <div class="col-md-8">
-                    <br>
-                    <h2>Tower of Heaven</h2>
-                    <br>                    
-                    <p class="align-middle">
-                        A retro handheld adventure reaching for the heavens.
-                    </p>
-                    <img src="images/screens_03.png" alt="">
+   <!-- about -->
+   <div id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about_border">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="titlepage text_align_left">
+                                <h2>About Us</h2>
+                            </div>
+                            <div class="about_text">
+                                <p>
+                                    Founded in early 2017, Crosshair GAMES LIMITED is the fastest growing game development 
+                                    studio in Bangladesh. We focus on Card, Board and Casual mobile games for South Asia. 
+                                    we are committed to the development of the Game industry of Bangladesh.
+                                    We have 45+ passionate game professionals and are constantly looking for great talents 
+                                    to join our team.
+                                    We have worked on games and apps like Planta- Care for your plants, Health Connect, 
+                                    Lyrical- Photo Video Status, Frozen City, Omlet- Live streams memes and NFT, 
+                                    Tangle, Photolib- Ai Art by Lighttricks, Little Stories- Bedtime Books and many more.
+
+                                </p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <!--
+                            <div class="about_img">
+                                <figure><img class="img_responsive" src="images/about2.png" alt="#" /></figure>
+                            </div>
+                            -->
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>-->
-   
+    </div>
+</div>
+<!-- end about -->
         
     <!-- footer -->
     <footer>
@@ -283,7 +276,7 @@
                      </ul>                     
                   </div>
                </div>              
-            <div class="col-md-3 col-sm-6 "">
+            <div class="col-md-3 col-sm-6">
                 <div class="Informa helpful">
                     <h3>Useful Link</h3>
                         <ul>
